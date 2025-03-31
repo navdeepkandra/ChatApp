@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ChatUser from "./ChatUser";
 import Messages from "./Messages";
-import Type from "./type";
+import Type from "./Type.jsx";
 import useConversation from "../../stateManage/useConversation.js";
 import {useAuth} from "../../context/AuthProvider.jsx"
 
